@@ -1,0 +1,480 @@
+/* CSS Document为林慕凡|笔记bynote.cn/适配Butterfly主题 【自定义综合CSS】引入 */
+/* 1.添加图标颜色 ===========================================*/
+/* 导航菜单 */
+i.fas.fa-home {
+    color: mediumturquoise;
+}
+i.fa.fa-list {
+    color: #00FF7F;
+}
+i.fa.fa-archive {
+    color: blue;
+}
+i.fa.fa-folder-open {
+    color: orange;
+}
+i.fa.fa-tags {
+    color: rebeccapurple;
+}
+i.fas.fa-photo-video {
+    color: #FFFF00;
+}
+i.fa-fw.fa.fa-image {
+    color: red;
+}
+i.fa-fw.fa.fa-music {
+    color: Purple;
+}
+i.fas.fa-tasks {
+    color: mediumturquoise;
+}
+i.fas.fa-user-ninja {
+    color: LightGreen;
+}
+i.fa-fw.fa.fa-paper-plane {
+    color: teal;
+}
+i.fas.fa-camera-retro {
+    color: DarkOrchid;
+}
+i.fas.fa-handshake {
+    color: #32CD32;
+}
+i.fa-fw.fa.fa-coffee {
+    color: Sienna;
+}
+i.fa-fw.fa.fa-comments {
+    color: DarkTurquoise;
+}
+i.fa.fa-link {
+    color: teal;
+}
+i.fa.fa-heart {
+    color: #4876FF;
+}
+i.fas.fa-fan {
+    color: #912CEE;
+}
+i.fab.fa-qq {
+    color: #FF4500;
+}
+i.fab.fa-weixin {
+    color: #00CD66;
+}
+i.fab.fa-github {
+    color: #7B68EE;
+}
+i.fas.fa-envelope {
+    color: #FF6347;
+}
+i.fab.fa-weibo {
+    color: #A020F0;
+}
+i.fas.fa-paw.fa-spin {
+    color: #1E90FF;
+}
+i.fas.fa-archive {
+    color: #7A67EE;
+}
+i.fas.fa-tag.article-meta__icon {
+    color: blueviolet;
+}
+i.fas.fa-inbox.article-meta__icon {
+    color: springgreen;
+}
+#recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap .article-meta__link {
+    color: #FF0000;
+}
+i.fas.fa-film {
+    color: dodgerblue;
+}
+i.fas.fa-chart-line {
+    color: crimson;
+}
+i.fas.fa-bolt {
+    color: crimson;
+}
+/* 图标颜色结束  end===================================================== */
+
+/* 2.a标签默认颜色==================================================== */
+a {
+    color: #00c4b6;
+}
+/* 页脚a标签字体颜色*/
+#footer-wrap a {
+    color: #00FFFF;
+}
+/* 页脚自定义字段字体颜色*/
+.footer_custom_text {
+    color: #fff942;
+}
+/* 4.博主昵称颜色 */
+
+.author-info__name {
+    color: #ff7242;
+}
+
+/* 简介颜色 */
+.author-info__description  {
+    color: #6f42c1;
+}
+/* 头部导航菜单文字和左上角站名颜色--暂时无效*/
+
+#nav  #menus {
+    color: ##00FFFF;
+}
+
+/* 首页标题颜色*/
+
+#page-header #site-title {
+    color: #00FFFF;
+}
+/* end===================================================== */
+
+/* 3.设置头部banner底部阴影===============================================*/
+/* header#page-header.full_page {
+    box-shadow: 0 -80px 10px -2px #ffffff83 inset;
+    box-sizing: border-box;
+} */
+/* end====================================================================*/
+/* 4.设置博客名字字体====================================================*/
+#nav #blog_name{
+    font-size: x-large;
+}
+#nav:not(.fixed) #menus{
+    font-size: large;
+}
+/* end====================================================================*/
+
+/* 5.滚动条优化 =============================================================*/
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgba(55, 99, 106, 0.699);
+    border-radius: 2em;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #fc0a33d5;
+    background-image: -webkit-linear-gradient(45deg,
+            rgba(198, 228, 28, 0.4) 25%,
+            transparent 25%,
+            transparent 50%,
+            rgba(172, 156, 7, 0.4) 50%,
+            rgba(248, 244, 19, 0.84) 75%,
+            transparent 75%,
+            transparent);
+    border-radius: 2em;
+}
+
+::-webkit-scrollbar-corner {
+    background-color: transparent;
+}
+
+::-moz-selection {
+    color: #fff;
+    background-color: #ec29f3;
+}
+
+/* end=================================================== */
+
+
+/*6.鼠标样式==================================================*/
+body,
+html {
+    cursor: url(https://cdn.jsdelivr.net/gh/bynotes/bynotes.github.io/img/b1.cur),
+        auto !important;
+}
+
+a,
+img {
+    cursor: url(https://cdn.jsdelivr.net/gh/bynotes/bynotes.github.io/img/pointer.cur),
+        auto !important;
+}
+
+/*a标签*/
+a:hover {
+    cursor: url(https://cdn.jsdelivr.net/gh/bynotes/bynotes.github.io/img/pointer.cur),
+        auto !important;
+}
+
+/*按钮*/
+button:hover {
+    cursor: url(https://cdn.jsdelivr.net/gh/bynotes/bynotes.github.io/img/pointer.cur),
+        auto !important;
+}
+
+/*i标签*/
+i:hover {
+    cursor: url(https://cdn.jsdelivr.net/gh/bynotes/bynotes.github.io/img/pointer.cur),
+        auto !important;
+}
+
+/*页脚a标签*/
+#footer-wrap a:hover {
+    cursor: url(https://cdn.jsdelivr.net/gh/bynotes/bynotes.github.io/img/pointer.cur),
+        auto !important;
+}
+
+/*分页器*/
+#pagination .page-number:hover {
+    cursor: url(https://cdn.jsdelivr.net/gh/bynotes/bynotes.github.io/img/pointer.cur),
+        auto !important;
+}
+
+/*头部的导航栏*/
+#nav .site-page:hover {
+    cursor: url(https://cdn.jsdelivr.net/gh/bynotes/bynotes.github.io/img/pointer.cur),
+        auto !important;
+}
+
+/*鼠标样式END=======================================================*/
+
+/*7.kbd====================================================*/
+/*kbd {
+    display: inline-block;
+    color: #666;
+    font: bold 9pt arial;
+    text-decoration: none;
+    text-align: center;
+    padding: 2px 5px;
+    margin: 0 5px;
+    background: #eff0f2;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border-top: 1px solid #f5f5f5;
+    -webkit-box-shadow: inset 0 0 20px #e8e8e8, 0 1px 0 #c3c3c3, 0 1px 0 #c9c9c9,
+        0 1px 2px #333;
+    -moz-box-shadow: inset 0 0 20px #e8e8e8, 0 1px 0 #c3c3c3, 0 1px 0 #c9c9c9,
+        0 1px 2px #333;
+    -webkit-box-shadow: inset 0 0 20px #e8e8e8, 0 1px 0 #c3c3c3, 0 1px 0 #c9c9c9,
+        0 1px 2px #333;
+    box-shadow: inset 0 0 20px #e8e8e8, 0 1px 0 #c3c3c3, 0 1px 0 #c9c9c9,
+        0 1px 2px #333;
+    text-shadow: 0 1px 0 #f5f5f5;
+}
+
+/* end=================================================== */
+/* 8.页码底色======================================= */
+#pagination .page-number {
+    background-color: cornsilk;
+}
+#pagination .pagination{
+    border-radius: 8px;
+    padding: 3px;
+    background-color: rgba(255, 255, 255, 0.57);
+    box-shadow: 0 0px 10px 5px #fffefe inset;
+}
+#pagination .pagination:hover{
+    -webkit-box-shadow: 0 4px 12px 12px rgba(245, 20, 215, 0.3);
+    /* box-shadow: 0 4px 12px 12px rgba(245, 20, 215, 0.3); */
+    box-shadow: 0 0px 10px 3px #74e0fcc7 inset;
+    background-color: #fffefec4;
+}
+a.extend.net {
+    background-color: cornsilk;
+}
+
+/* ================================================ */
+/* 9.md图片样式 =======================================*/
+img[src*='#img-radius'] {
+    border-radius: 9px;
+}
+/* 给图片加圆角 */
+img{
+    border-radius: 9px;
+}
+/* 悬浮鼠标显示颜色边框 */
+img:hover{
+    box-shadow: 0 0px 10px 5px #22ec2c;
+}
+#article-container figure.highlight:hover{
+    box-shadow: 0 0px 10px 5px #deec22;
+}
+/* end==================================================== */
+/* 10.侧边栏鼠标悬停显示边框================================== */
+#aside_content .card-widget:hover {
+    -webkit-box-shadow: 0 4px 12px 12px rgba(245, 20, 215, 0.3);
+    /* box-shadow: 0 4px 12px 12px rgba(245, 20, 215, 0.3); */
+    box-shadow: 0 0px 10px 5px #06d8fdc7 inset, 0 0px 10px 5px #06d8fdc7;
+    
+}
+
+div.card-content {
+    box-shadow: 0 0px 10px 5px #fffeff inset;
+}
+
+/* end=============================================================  */
+/* 11.鼠标悬停显示边框文章详情页===================================== */
+/* div#post {
+    /* background-color: rgba(165, 165, 165, 0.57); 
+    font-size: 16px;
+    box-shadow: 0 0px 10px 5px #fffefe inset;
+} 
+
+div#post:hover {
+    -webkit-box-shadow: 0 4px 12px 12px #fffefe inset;
+    /* box-shadow: 0 0px 10px 5px #fffefe inset,0 0px 10px 5px #fffefe ; 
+    box-shadow: 0 0px 10px 5px #fffefe inset, 0 0px 10px 5px #06d8fde8;
+    /* background-color: #04fcf08a; 
+} 
+
+/* end========================================================= */
+
+/* 12.文章标题渐变 ===================================== */
+#post-info .post-title {
+    background: linear-gradient(-45deg, #ee7752, #ce3e75, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 10s ease infinite;
+    -moz-animation: Gradient 10s ease infinite;
+    animation: Gradient 10s ease infinite;
+    -o-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+/* end========================================================= */
+
+/* 13.顶部文章标题下沉调整=====================================  */
+#page-header #post-info {
+       bottom: 2rem;
+}   
+/* end========================================================= */
+
+/* 14.主页面div框设置透明加边框 */
+/* main#content-inner.layout {
+    border-width: 30px;
+    padding-top: 20px;
+    background-color: #ffffff5e;
+    box-shadow: 0px 5px 10px 8px #ffffff;
+    margin: auto;
+} */
+    /* 背景透明颜色 */
+   /* background: #fdf6e3;
+}
+#page-header.not-index-bg {
+    height: 36rem;
+    box-shadow: 0 -80px 10px -2px #ffffff83 inset;
+    box-sizing: border-box;
+} */
+/* end========================================================= */
+/* 15.波浪特效缺少样式暂时停用 */
+/*.hans-container {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 120px;
+    z-index: -1;
+}*/
+/* end========================================================= */
+
+/* 16.页脚背景图片 */
+#footer {
+   background-image: url(https://cdn.jsdelivr.net/gh/bynotes/bynotes.github.io/img/bg/footer_bg.jpg) 
+  
+ } 
+/* end========================================================= */
+
+/* 17.去掉footer背景暂停食用=====================================*/
+/* #footer {
+    background: transparent !important;
+} */
+body{
+background-color:#0090d6;
+}
+#footer {
+background: #00000000;
+}
+
+/* end========================================================= */
+/* 18.分享按钮================================================== */
+#post .tag_share .post-meta__tags {
+    background: #e5f1f8;
+}
+
+#post .post-copyright {
+    background: palegreen;
+}
+/*end========================================================== */
+/* 19.友链页面 */
+.flink#article-container .flink-list > .flink-list-item:before{
+    background: #13d64678;
+}
+/*end========================================================== */
+/* 20.主页左栏鼠标悬停显示边框-占时功能不全========================== */
+#recent-posts  {
+    -webkit-box-shadow: 0 4px 12px 12px rgba(245, 20, 215, 0.3);
+     box-shadow: 0 4px 12px 12px rgba(245, 20, 215, 0.3); 
+    box-shadow: 0 0px 10px 5px #06d8fdc7 inset, 0 0px 10px 5px #06d8fdc7;
+    background-color: #fffefec4;
+}
+#recent-posts > .recent-post-item  {
+    box-shadow: 0 0px 10px 5px #fffeff inset;
+}
+
+/* end=============================================================  */
+
+
+/* 21.首页自动打字颜色渐变颜色=======================*/
+#subtitle {
+    background: linear-gradient(-45deg, #00BFFF, #FF4500, #FFFF00, #23d5ab);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 10s ease infinite;
+    -moz-animation: Gradient 10s ease infinite;
+    animation: Gradient 10s ease infinite;
+    -o-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+	font-weight: 600;
+}
+
+#subtitle:before {
+    background-color: rgba(0, 0, 0, 0);
+}
+/* end=============================================================  */
+
+/* 22.首页文章卡片里距离调整========================== */ 
+#recent-posts > .recent-post-item >.recent-post-info {
+        width: 60%;
+		height: 200px;		
+}
+/* end=============================================================  */
+
+/* 23.移动端优化：去除归档、标签、最新文章、公告、、只保留网站统计 */
+@media screen and (max-width: 800px) {
+    #aside_content div:not(:last-child) {
+        display: none;
+        font-size: 13px;
+    }
+}
+ /* end=============================================================  */
+
+/*24.修复添加up酱后图标上移的bug 暂停使用==============================*/
+
+/* .fas {
+    line-height: 2;
+} */
+ /* end=============================================================  */
+ 
+/* 25.版权链接去掉下划线============================================= */
+
+.layout_post .post-copyright .post-copyright-info a {
+    text-decoration: none;
+    word-break: break-word;
+}
+ /* end=============================================================  */
+ 

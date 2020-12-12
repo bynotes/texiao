@@ -1,0 +1,17 @@
+/* 首页分类目录卡片依赖 */
+
+.category-list-count:after {
+	
+    content: ' 篇';
+
+}
+.fa-book{
+    padding-right:5px
+}
+.category-list-count {
+        font-weight: bold;
+}
+.category-list-item {list-style-type:none;}
+
+
+

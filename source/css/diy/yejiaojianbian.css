@@ -1,0 +1,311 @@
+
+
+
+/* 自定义字体 */
+
+@font-face {
+    font-family: 'VarelaRound';
+    src: url('https://cdn.jsdelivr.net/gh/lete114/CDN2/zaxiang/VarelaRound-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'sleek';
+    src: url('https://cdn.jsdelivr.net/gh/lete114/CDN2/zaxiang/sleek.woff2');
+}
+
+
+/* 修复h1~h4标题前的图标不对齐 */
+
+#article-container.post-content h1:before {
+    margin-left: -1.5rem !important;
+    margin-top: -0.2rem;
+}
+
+#article-container.post-content h2:before {
+    margin-left: -1.5rem !important;
+    margin-top: -0.2rem;
+}
+
+#article-container.post-content h3:before {
+    margin-left: -1.5rem !important;
+    margin-top: -0.2rem;
+}
+
+#article-container.post-content h4:before {
+    margin-left: -1.5rem !important;
+    margin-top: -0.2rem;
+}
+
+
+/* 隐藏回到顶部按钮，替换为up酱 */
+
+#go-up i {
+    display: none;
+    background-color: transparent !important;
+}
+
+#go-up {
+    background-color: transparent !important;
+}
+
+#upj {
+    transform: translate(-70px, -80px) !important;
+}
+
+
+/* 目录隐藏按钮颜色 */
+
+#toggle-sidebar {
+    color: #e58a8a !important;
+}
+
+
+
+
+
+
+/* 评论框  */
+
+.vwrap {
+    box-shadow: 2px 2px 5px #bbb;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    padding: 30px;
+    margin: 30px 0px 30px 0px;
+}
+
+
+/* 提交按钮 */
+
+#vcomment button {
+    padding: 0.3rem 0.8rem;
+    border-color: #fff;
+    background-color: #e58a8a;
+    color: #fff;
+    font-size: 0.7rem;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+
+/* 评论区代码块 */
+
+.v[data-class=v] code {
+    color: #c7254e;
+    background-color: #F9F2F4;
+}
+
+
+
+
+/* header背景透明 */
+
+   #page-header {
+    background-color: transparent;
+}
+
+
+
+/* 设置评论框 */
+
+.vcard {
+    box-shadow: 2px 2px 5px #bbb;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    padding: 30px;
+    margin: 30px 0px 0px 0px;
+}
+
+
+/* 取消回复聊天框 */
+
+.vquote .vcard {
+    box-shadow: 2px 2px 5px transparent;
+    background: rgba(255, 255, 255, 0.0);
+    padding: 0px;
+}
+
+
+/* a(链接)标签的默认颜色 */
+
+
+/* 宽度大于800小于9999执行 */
+
+
+/* @media only screen and (min-width: 800px) and (max-width: 9999px) {
+    
+    #article-container a {
+        color: #00c4b6;
+        display: inline-block;
+        position: relative;
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*文章透明*/
+
+
+/*
+.layout_post>#post {
+    background: rgba(255, 255, 255, .9);
+}
+*/
+
+
+/*移动端优化：去除归档、标签、最新文章、公告、、只保留网站统计*/
+
+@media screen and (max-width: 800px) {
+    #aside_content div:not(:last-child) {
+        display: none;
+        font-size: 13px;
+    }
+}
+
+
+
+
+
+
+
+
+/* 打造效果渐变 */
+
+@-webkit-keyframes Gradient {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+@-moz-keyframes Gradient {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+#subtitle {
+    background: linear-gradient(-45deg, #ee7752, #ce3e75, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 10s ease infinite;
+    -moz-animation: Gradient 10s ease infinite;
+    animation: Gradient 10s ease infinite;
+    -o-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#subtitle:before {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
+
+
+
+
+/* 页脚footer */
+/* 渐变色滚动动画 */
+@-webkit-keyframes Gradient {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+@-moz-keyframes Gradient {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
+}
+#footer {
+    background: linear-gradient(-45deg, #ee7752, #ce3e75, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 10s ease infinite;
+    -moz-animation: Gradient 10s ease infinite;
+    animation: Gradient 10s ease infinite;
+    -o-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#footer:before {
+    background-color: rgba(0, 0, 0, 0);
+}

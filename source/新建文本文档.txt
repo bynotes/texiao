@@ -1,0 +1,10 @@
+源文件内引入：
+<!-- 页面点击小红心 -->
+<script type="text/javascript" src="/js/love.js"></script>
+下面居中对齐
+<center>
+<span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
+</center>
+
+
+x622
